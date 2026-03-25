@@ -67,3 +67,6 @@ data/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# 클로드 관련 파일 제거
+.claude
