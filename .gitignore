@@ -1,0 +1,69 @@
+# 결과 저장 폴더
+reports/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# 가상환경
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_backup
+
+# 설정 파일 (API 키 등 민감 정보)
+config.py
+*.env
+.env
+secrets.py
+
+# 패키지 관련
+*.egg-info/
+*.egg
+dist/
+build/
+site/
+pip-wheel-metadata/
+
+# 테스트 / 커버리지
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 로그
+*.log
+logs/
+
+# 데이터 파일 (대용량)
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.joblib
+data/
+
+# 모델 저장 파일
+*.pt
+*.pth
+*.onnx
+*.cbm
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
